@@ -379,8 +379,10 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 				{ id = cat.WorldEventsDarkmoon, subMenu = {
 					{ text = L["The Real Race"], id = cat.WorldEventsDarkmoonRealRace },
 					{ text = L["The Real Big Race"], id = cat.WorldEventsDarkmoonRealBigRace },
+					{ text = L["Dance Game"], id = cat.WorldEventsDarkmoonDance },
 				}},
-				{ id = cat.WorldEventsBrawlersGuild },
+				--{ id = cat.WorldEventsBrawlersGuild },
+				{ id = cat.WorldEventsTimewalking },
 			}},
 			{ id = cat.PetBattles, subMenu = {
 				{ id = cat.PetBattlesCollect, subMenu = {
@@ -473,6 +475,17 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 					{ text = L["Collector's Edition"], id = cat.FeatsOfStrengthPromotionsCollector },
 				}},
 				{ text = L["Realm First"], id = cat.FeatsOfStrengthRealmFirst },
+			}},
+			{ id = cat.Legacy, subMenu = {
+				{ id = cat.LegacyCharacter },
+				{ id = cat.LegacyQuests },
+				{ id = cat.LegacyPvP },
+				{ id = cat.LegacyDungeons },
+				{ id = cat.LegacyRaids },
+				{ id = cat.LegacyProfessions },
+				{ id = cat.LegacyCurrencies },
+				{ id = cat.LegacyWorldEvents },
+				{ id = cat.LegacyExpansionFeatures },
 			}},
 		}
 		
