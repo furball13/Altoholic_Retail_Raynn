@@ -25,6 +25,7 @@ L["Flame Warden"] = true
 L["Tricks and Treats"] = true
 L["The Real Race"] = true
 L["The Real Big Race"] = true
+L["Dance Game"] = true
 L["Safari"] = true
 L["Wins"] = true
 L["Twisting Corridors"] = true
