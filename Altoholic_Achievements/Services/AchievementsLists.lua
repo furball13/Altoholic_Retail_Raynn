@@ -246,8 +246,86 @@ local sortedAchievements = {
 		15486, 15487, 15488, 15489 },
 
 	-- 10.0 Vault of the Incarnates
-	[cat.RaidsDragonflightVaultOfTheIncarnates] = { 16343, 16345, 16354, 16346, 16347, 16348, 16349, 16350, 16351, 16352,
-		16353 },
+	[cat.RaidsDragonflightVaultOfTheIncarnates] = {
+		16343, -- Vault of the Incarnates
+		16345, -- Heroic: Vault of the Incarnates
+		16354, -- Mythic: Vault of the Incarnates
+		17110, -- The Primal Bulwark
+		17111, -- Caverns of Infusion
+		17112, -- Fury of the Storm
+		16346, -- Mythic: Eranog
+		16347, -- Mythic: Terros
+		16348, -- Mythic: The Primal Council
+		16349, -- Mythic: Sennarth, The Cold Breath
+		16350, -- Mythic: Dathea, Ascended
+		16351, -- Mythic: Kurog Grimtotem
+		16352, -- Mythic: Broodkeeper Diurna
+		16353, -- Mythic: Raszageth the Storm-Eater
+		16335, -- What Frozen Things Do
+		16365, -- Little Friends
+		16364, -- The Lunker Below
+		16419, -- I Was Saving That For Later
+		16458, -- Nothing But Air
+		16450, -- The Power is MINE!
+		16442, -- Incubation Extermination
+		16451, -- The Ol Raszle Daszle
+	},
+	-- 10.1 Aberrus
+	[cat.RaidsDragonflightAberrus] = {
+		18160, -- Aberrus, the Shadowed Crucible
+		18161, -- Heroic: Aberrus, the Shadowed Crucible
+		18162, -- Mythic: Aberrus, the Shadowed Crucible
+		18163, -- Discarded Works
+		18164, -- Fury of Giants
+		18165, -- Neltharion's Shadow
+		18167, -- Edge of the Void
+		18151, -- Mythic: Kazzara, the Hellforged
+		18152, -- Mythic: The Amalgamation Chamber
+		18153, -- Mythic: The Forgotten Experiments
+		18154, -- Mythic: Assault of the Zaqali
+		18155, -- Mythic: Rashok, the Elder
+		18156, -- Mythic: The Vigilant Steward, Zskarn
+		18157, -- Mythic: Magmorax
+		18158, -- Mythic: Echo of Neltharion
+		18159, -- Mythic: Scalecommander Sarkareth
+		18229, -- Cosplate
+		18168, -- I'll Make My Own Shadowflame
+		18173, -- Tabula Rasa
+		18228, -- Are You Even Trying?
+		18230, -- Whac-A-Swog
+		18193, -- Eggscellent Eggsecution
+		18172, -- Escar-Go-Go-Go
+		18149, -- Objects in Transit May Shatter
+		17877, -- We'll Never See That Again, Surely
+	},
+	-- 10.2 Amirdrassil
+	[cat.RaidsDragonflightAmirdrassil] = {
+		19331, -- Amirdrassil, the Dream's Hope
+		19333, -- Heroic: Amirdrassil, the Dream's Hope
+		19334, -- Mythic: Amirdrassil, the Dream's Hope
+		19344, -- Incarnate's Wake
+		19345, -- Molten Incursion
+		19346, -- The Viridian Weave
+		19347, -- Fate of Amirdrassil
+		19335, -- Mythic: Gnarlroot
+		19336, -- Mythic: Igira the Cruel
+		19337, -- Mythic: Volcoross
+		19338, -- Mythic: Council of Dreams
+		19339, -- Mythic: Larodar, Keeper of the Flame
+		19340, -- Mythic: Nymue, Weaver of the Cycle
+		19341, -- Mythic: Smolderon
+		19342, -- Mythic: Tindral Sageswift, Seer of the Flame
+		19343, -- Mythic: Fyrakk the Blazing
+		19322, -- Meaner Pastures
+		19320, -- Cruelty Free
+		19321, -- Swog Champion
+		19193, -- Ducks In A Row
+		19394, -- A Dream Within a Dream
+		19089, -- Don't Let the Doe Hit You On The Way Out
+		19319, -- Haven't We Done This Before?
+		19393, -- Whelp, I'm Lost
+		19390, -- Memories of Teldrassil
+	},
 
 	[cat.Professions] = { 116, 731, 732, 733, 734, 4924, 6830, 9464, 735, 4914, 6835, 9507, 7378, 7379, 9087, 9071, 9454,
 		9453, 12737, 13516, 12735, 12740, 12733, 13056, 10583, 10581, 10586, 10587, 10582, 10585, 10761, 10588, 12736, 12741,

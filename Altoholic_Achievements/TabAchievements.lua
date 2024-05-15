@@ -314,6 +314,10 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 				{ text = EXPANSION_NAME9, id = cat.RaidsDragonflight, subMenu = {
 					-- 10.0 Vault of the Incarnates
 					{ text = FormatRaid("10.0", 14030), id = cat.RaidsDragonflightVaultOfTheIncarnates },
+					-- 10.1 Aberrus
+					{ text = FormatRaid("10.1", 14663), id = cat.RaidsDragonflightAberrus },
+					-- 10.2 Amirdrassil
+					{ text = FormatRaid("10.2", 14643), id = cat.RaidsDragonflightAmirdrassil },
 				}},
 				{ text = format("%s%s", colors.cyan, "Raider's Glory"), id = cat.DungeonGloryRaider },
 				-- by exp
