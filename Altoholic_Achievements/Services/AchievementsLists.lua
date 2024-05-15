@@ -246,8 +246,86 @@ local sortedAchievements = {
 		15486, 15487, 15488, 15489 },
 
 	-- 10.0 Vault of the Incarnates
-	[cat.RaidsDragonflightVaultOfTheIncarnates] = { 16343, 16345, 16354, 16346, 16347, 16348, 16349, 16350, 16351, 16352,
-		16353 },
+	[cat.RaidsDragonflightVaultOfTheIncarnates] = {
+		16343, -- Vault of the Incarnates
+		16345, -- Heroic: Vault of the Incarnates
+		16354, -- Mythic: Vault of the Incarnates
+		17110, -- The Primal Bulwark
+		17111, -- Caverns of Infusion
+		17112, -- Fury of the Storm
+		16346, -- Mythic: Eranog
+		16347, -- Mythic: Terros
+		16348, -- Mythic: The Primal Council
+		16349, -- Mythic: Sennarth, The Cold Breath
+		16350, -- Mythic: Dathea, Ascended
+		16351, -- Mythic: Kurog Grimtotem
+		16352, -- Mythic: Broodkeeper Diurna
+		16353, -- Mythic: Raszageth the Storm-Eater
+		16335, -- What Frozen Things Do
+		16365, -- Little Friends
+		16364, -- The Lunker Below
+		16419, -- I Was Saving That For Later
+		16458, -- Nothing But Air
+		16450, -- The Power is MINE!
+		16442, -- Incubation Extermination
+		16451, -- The Ol Raszle Daszle
+	},
+	-- 10.1 Aberrus
+	[cat.RaidsDragonflightAberrus] = {
+		18160, -- Aberrus, the Shadowed Crucible
+		18161, -- Heroic: Aberrus, the Shadowed Crucible
+		18162, -- Mythic: Aberrus, the Shadowed Crucible
+		18163, -- Discarded Works
+		18164, -- Fury of Giants
+		18165, -- Neltharion's Shadow
+		18167, -- Edge of the Void
+		18151, -- Mythic: Kazzara, the Hellforged
+		18152, -- Mythic: The Amalgamation Chamber
+		18153, -- Mythic: The Forgotten Experiments
+		18154, -- Mythic: Assault of the Zaqali
+		18155, -- Mythic: Rashok, the Elder
+		18156, -- Mythic: The Vigilant Steward, Zskarn
+		18157, -- Mythic: Magmorax
+		18158, -- Mythic: Echo of Neltharion
+		18159, -- Mythic: Scalecommander Sarkareth
+		18229, -- Cosplate
+		18168, -- I'll Make My Own Shadowflame
+		18173, -- Tabula Rasa
+		18228, -- Are You Even Trying?
+		18230, -- Whac-A-Swog
+		18193, -- Eggscellent Eggsecution
+		18172, -- Escar-Go-Go-Go
+		18149, -- Objects in Transit May Shatter
+		17877, -- We'll Never See That Again, Surely
+	},
+	-- 10.2 Amirdrassil
+	[cat.RaidsDragonflightAmirdrassil] = {
+		19331, -- Amirdrassil, the Dream's Hope
+		19333, -- Heroic: Amirdrassil, the Dream's Hope
+		19334, -- Mythic: Amirdrassil, the Dream's Hope
+		19344, -- Incarnate's Wake
+		19345, -- Molten Incursion
+		19346, -- The Viridian Weave
+		19347, -- Fate of Amirdrassil
+		19335, -- Mythic: Gnarlroot
+		19336, -- Mythic: Igira the Cruel
+		19337, -- Mythic: Volcoross
+		19338, -- Mythic: Council of Dreams
+		19339, -- Mythic: Larodar, Keeper of the Flame
+		19340, -- Mythic: Nymue, Weaver of the Cycle
+		19341, -- Mythic: Smolderon
+		19342, -- Mythic: Tindral Sageswift, Seer of the Flame
+		19343, -- Mythic: Fyrakk the Blazing
+		19322, -- Meaner Pastures
+		19320, -- Cruelty Free
+		19321, -- Swog Champion
+		19193, -- Ducks In A Row
+		19394, -- A Dream Within a Dream
+		19089, -- Don't Let the Doe Hit You On The Way Out
+		19319, -- Haven't We Done This Before?
+		19393, -- Whelp, I'm Lost
+		19390, -- Memories of Teldrassil
+	},
 
 	[cat.Professions] = { 116, 731, 732, 733, 734, 4924, 6830, 9464, 735, 4914, 6835, 9507, 7378, 7379, 9087, 9071, 9454,
 		9453, 12737, 13516, 12735, 12740, 12733, 13056, 10583, 10581, 10586, 10587, 10582, 10585, 10761, 10588, 12736, 12741,
@@ -328,6 +406,28 @@ local sortedAchievements = {
 		16395 },
 	[cat.CollectionsAppearancesPvP] = { 11706, 11707, 11708, 11709, 11710, 11711, 11712, 11713, 11714, 11715, 11716, 11717,
 		11718, 11719, 11720, 11629, 11721, 11722, 11630, 11723, 12021, 12993, 13433, 13585, 14059, 14831, 15102 },
+	[cat.CollectionsDrakeCosmetics] = {
+		16699, -- Renewed Proto-Drake Scales and Patterns
+		16696, -- Renewed Proto-Drake Armor
+		16700, -- Renewed Proto-Drake Horns and Hair
+		16697, -- Renewed Proto-Drake Head Features
+		16698, -- Renewed Proto-Drake Tail Features
+		16701, -- Windborne Velocidrake Scales and Patterns
+		16702, -- Windborne Velocidrake Armor
+		16704, -- Windborne Velocidrake Horns and Fur
+		16705, -- Windborne Velocidrake Head Features
+		16706, -- Windborne Velocidrake Back and Tail
+		16707, -- Highland Drake Scales and Patterns
+		16708, -- Highland Drake Armor
+		16710, -- Highland Drake Horns and Hair
+		16712, -- Highland Drake Head Features
+		16711, -- Highland Drake Back and Tail
+		16723, -- Cliffside Wylderdrake Scales and Patterns
+		16724, -- Cliffside Wylderdrake Armor
+		16725, -- Cliffside Wylderdrake Horns and Manes
+		16727, -- Cliffside Wylderdrake Head Features
+		16726, -- Cliffside Wylderdrake Back and Tail
+	},
 
 	[cat.ExpansionFeaturesArgentTournament] = { 2756, 2758, 2777, 2760, 2779, 2762, 2780, 2763, 2781, 2764, 2778, 2761, 2782,
 		2770, 2817, 2783, 2765, 2784, 2766, 2785, 2767, 2786, 2768, 2787, 2769, 2788, 2771, 2816 },
@@ -388,6 +488,7 @@ local sortedAchievements = {
 	[cat.ExpansionFeaturesCovenantSanctumsNecrolords] = { 14684, 14753, 14751, 14748, 14833, 14752, 14764 },
 	[cat.ExpansionFeaturesCovenantSanctumsAdventures] = { 14840, 14841, 14842, 14839, 14846, 14847, 14844, 14843 },
 
+--[[
 	[cat.ExpansionFeaturesDragonriderRacing] = { 15939, 15940, 15941, 15855, 15936, 15924, 15917, 15857, 15926, 15698, 15927,
 		15718, 15923, 15895, 15726, 15920, 15696, 15899, 15732, 15938, 15925, 15719, 15922, 15841, 15856, 15704, 15697, 15738,
 		15929, 15935, 15921, 15846, 15724, 15711, 15835, 15787, 15932, 15919, 15858, 15915, 15720, 15715, 15730, 15852, 15849,
@@ -400,8 +501,260 @@ local sortedAchievements = {
 		15831, 15822, 15818, 15739, 15740, 15736, 15737, 15721, 15723, 15717, 15714, 15747, 15735, 15850, 15914, 15909, 15910,
 		15896, 15729, 15728, 15777, 15709, 15908, 15784, 15702, 15804, 15830, 15832, 15829, 15823, 15820, 15819, 15741, 15722,
 		15713, 15743 },
+]]--
+	[cat.ExpansionFeaturesDragonriderRacing] = {
+		19478, -- Now THIS is Dragon Racing!
+		15939, -- Dragon Racing Completionist: Bronze
+		15940, -- Dragon Racing Completionist: Silver
+		17330, -- Reverse Racer: Bronze
+		18790, -- Dragonriding Challenge: Dragon Isles: Bronze
+        },
+	[cat.ExpansionFeaturesDragonriderRacingWakingShores] = {
+		16575, -- Waking Shores Glyph Hunter
+		15917, -- Waking Shores: Gold
+		15928, -- Waking Shores Advanced: Silver
+		15929, -- Waking Shores Advanced: Gold
+		17195, -- Waking Shores Reverse: Bronze
+		18748, -- Waking Shores Challenge: Bronze
+	},
+	[cat.ExpansionFeaturesDragonriderRacingOhnaranPlains] = {
+		16576, -- Ohn'ahran Plains Glyph Hunter
+		15920, -- Ohn'ahran Plains: Gold
+		15931, -- Ohn'ahran Plains Advanced: Silver
+		15932, -- Ohn'ahran Plains Advanced: Gold
+		17198, -- Ohn'ahran Plains Reverse: Bronze
+		17199, -- Ohn'ahran Plains Reverse: Silver
+		18754, -- Ohn'ahran Plains Challenge: Bronze
+	},
+        [cat.ExpansionFeaturesDragonriderRacingAzureSpan] = {
+		16577, -- Azure Span Glyph Hunter
+		15923, -- Azure Span: Gold
+		15934, -- Azure Span Advanced: Silver
+		15935, -- Azure Span Advanced: Gold
+		17201, -- Azure Span Reverse: Bronze
+		18757, -- Azure Span Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingThaldraszus] = {
+		16578, -- Thaldraszus Glyph Hunter
+		15926, -- Thaldraszus: Gold
+		15936, -- Thaldraszus Advanced: Bronze
+		15937, -- Thaldraszus Advanced: Silver
+		17204, -- Thaldraszus Reverse: Bronze
+		18760, -- Thaldraszus Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingForbiddenReach] = {
+		17411, -- Forbidden Reach Glyph Hunter
+		17294, -- Forbidden Reach Racing Completionist
+		17296, -- Forbidden Reach Racing Completionist: Silver
+		17279, -- Forbidden Reach: Bronze
+		17280, -- Forbidden Reach: Silver
+		17284, -- Forbidden Reach Advanced: Bronze
+		17286, -- Forbidden Reach Advanced: Silver
+		17288, -- Forbidden Reach Reverse: Bronze
+		17289, -- Forbidden Reach Reverse: Silver
+		18779, -- Forbidden Reach Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingZaralekCavern] = {
+		18150, -- Zaralek Cavern Glyph Hunter
+		17492, -- Zaralek Cavern Racing Completionist
+		17493, -- Zaralek Cavern Racing Completionist: Silver
+		17485, -- Zaralek Cavern: Gold
+		17486, -- Zaralek Cavern Advanced: Bronze
+		17487, -- Zaralek Cavern Advanced: Silver
+		17489, -- Zaralek Cavern Reverse: Bronze
+		17490, -- Zaralek Cavern Reverse: Silver
+		18786, -- Zaralek Cavern Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingEmeraldDream] = {
+		19306, -- Emerald Dream Glyph Hunter
+		19118, -- Emerald Dream Racing Completionist
+		19119, -- Emerald Dream Racing Completionist: Silver
+		19127, -- Emerald Dream Challenge Racing Completionist
+		19109, -- Emerald Dream: Bronze
+		19110, -- Emerald Dream: Silver
+		19112, -- Emerald Dream Advanced: Bronze
+		19113, -- Emerald Dream Advanced: Silver
+		19115, -- Emerald Dream Reverse: Bronze
+		19116, -- Emerald Dream Reverse: Silver
+		19121, -- Emerald Dream Challenge: Bronze
+		19124, -- Emerald Dream Reverse Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingKalimdorCup] = {
+		17721, -- Kalimdor Racing Completionist
+		17722, -- Kalimdor Racing Completionist: Silver
+		17713, -- Kalimdor: Silver
+		17714, -- Kalimdor: Gold
+		17715, -- Kalimdor Advanced: Bronze
+		17716, -- Kalimdor Advanced: Silver
+		17718, -- Kalimdor Reverse: Bronze
+		17719, -- Kalimdor Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingEasternKingdomsCup] = {
+		18939, -- Eastern Kingdoms Racing Completionist
+		18940, -- Eastern Kingdoms Racing Completionist: Silver
+		18568, -- Eastern Kingdoms: Gold
+		18569, -- Eastern Kingdoms Advanced: Bronze
+		18570, -- Eastern Kingdoms Advanced: Silver
+		18572, -- Eastern Kingdoms Reverse: Bronze
+		18573, -- Eastern Kingdoms Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingOutlandCup] = {
+		19105, -- Outland Racing Completionist
+		19106, -- Outland Racing Completionist: Silver
+		19092, -- Outland: Bronze
+		19097, -- Outland: Silver
+		19099, -- Outland Advanced: Bronze
+		19100, -- Outland Advanced: Silver
+		19102, -- Outland Reverse: Bronze
+		19103, -- Outland Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingNorthrendCup] = {
+		19721, -- Northrend Racing Completionist
+		19722, -- Northrend Racing Completionist: Silver
+		19674, -- Northrend: Bronze
+		19675, -- Northrend: Silver
+		19677, -- Northrend Advanced: Bronze
+		19679, -- Northrend Advanced: Silver
+		19682, -- Northrend Reverse: Bronze
+		19683, -- Northrend Reverse: Silver
+	},
 	[cat.ExpansionFeaturesPrimalStorms] = { 16480, 16484, 16498, 16477, 16483, 16467, 16461, 16487, 16482, 16478, 16481,
 		16465, 16479, 16476, 16500, 16475, 16492, 16486, 16463, 16488, 16489, 16466, 16485, 16468, 16499, 16490 },
+
+	[cat.RemixPandaria] = {
+		19871, -- Infinite Power
+		20593, -- Time Trial
+		40223, -- Timerunner
+		19872, -- The Jade Forest
+		19873, -- Valley of the Four Winds
+		19874, -- Krasarang Wilds
+		19875, -- Kun-Lai Summit
+		19877, -- Townlong Steppes
+		19878, -- Dread Wastes
+		19876, -- Vale of Eternal Blossoms
+		19879, -- Landfall
+		19880, -- Isle of Thunder
+		20003, -- Timeless Isle
+		19881, -- Escalation
+		20004, -- Heroic: Pandaria Scenarios
+		20005, -- Heroic: Pandaria Dungeons
+		20006, -- Pandaria Raids
+		20007, -- Heroic: Pandaria Raids
+		20008, -- Looking For Group: The Jade Forest
+		20009, -- Looking For Group: Valley of the Four Winds
+		20011, -- Looking For Group: Kun-Lai Summit
+		20012, -- Looking For Group: Townlong Steppes
+		20014, -- Looking For Group: Vale of Eternal Blossoms
+		20015, -- Looking For Group: Isle of Thunder
+		20016, -- Looking For Group: Timeless Isle
+	},
+	[cat.RemixPandariaQuests] = {
+		19882, -- Campaign: The Jade Forest
+		19884, -- Campaign: Valley of the Four Winds
+		19885, -- Campaign: Krasarang Wilds
+		19887, -- Campaign: Kun-Lai Summit
+		19889, -- Campaign: Townlong Steppes
+		19890, -- Campaign: Dread Wastes
+		19891, -- Campaign: Landfall
+		19892, -- Campaign: Isle of Thunder
+	},
+	[cat.RemixPandariaReputation] = {
+		19912, -- Order of the Cloud Serpent
+		19913, -- The August Celestials
+		19914, -- Shado-Pan
+		19915, -- The Klaxxi
+		19916, -- Golden Lotus
+		19917, -- Operation: Shieldwall
+		19919, -- Kirin Tor Offensive
+		19921, -- Shado-Pan Assault
+		19922, -- Emperor Shaohao
+	},
+	[cat.RemixPandariaExploration] = {
+		19962, -- Tour The Jade Forest
+		19963, -- Tour Valley of the Four Winds
+		19964, -- Tour Krasarang Wilds
+		19965, -- Tour Kun-Lai Summit
+		19966, -- Tour Townlong Steppes
+		19967, -- Tour Dread Wastes
+		19970, -- Tour Timeless Isle
+		20026, -- Explore Jade Forest
+		20027, -- Explore Valley of the Four Winds
+		20028, -- Explore Krasarang Wilds
+		20029, -- Explore Kun-Lai Summit
+		20030, -- Explore Townlong Steppes
+		20031, -- Explore Dread Wastes
+		19977, -- Hidden Treasures: The Jade Forest
+		19978, -- Hidden Treasures: Valley of the Four Winds
+		19979, -- Hidden Treasures: Krasarang Wilds
+		19980, -- Hidden Treasures: Kun-Lai Summit
+		19981, -- Hidden Treasures: Townlong Steppes
+		19982, -- Hidden Treasures: Timeless Isle
+		19993, -- Elusive Foes: The Jade Forest
+		19994, -- Elusive Foes: Valley of the Four Winds
+		19995, -- Elusive Foes: Krasarang Wilds
+		19996, -- Elusive Foes: Kun-Lai Summit
+		19997, -- Elusive Foes: Townlong Steppes
+		19998, -- Elusive Foes: Dread Wastes
+		20069, -- Elusive Foes: Vale of Eternal Blossoms
+		19999, -- Elusive Foes: Landfall
+		20000, -- Elusive Foes: Isle of Thunder
+		20001, -- Elusive Foes: Timeless Isle
+		20002, -- Powerful Enemies: Timeless Isle
+	},
+	[cat.RemixPandariaScenarios] = {
+		19923, -- Greenstone Village
+		19893, -- A Brewing Storm
+		19925, -- Unga Ingoo
+		19926, -- Brewmoon Festival
+		19927, -- Arena of Annihilation
+		19928, -- Crypt of Forgotten Kings
+		19930, -- Assault on Zan'vess
+		19933, -- Dagger in the Dark
+		19931, -- A Little Patience
+		20500, -- Lion's Landing
+		19938, -- Theramore's Fall
+		19934, -- Battle on the High Seas
+		19940, -- Blood in the Snow
+		19942, -- Dark Heart of Pandaria
+		19944, -- Secrets of Ragefire
+	},
+	[cat.RemixPandariaDungeons] = {
+		19894, -- Temple of the Jade Serpent
+		19896, -- Stormstout Brewery
+		19898, -- Shado-Pan Monastery
+		19900, -- Siege of Niuzao Temple
+		19902, -- Gate of the Setting Sun
+		19904, -- Mogu'shan Palace
+		19906, -- Scarlet Halls
+		19908, -- Scarlet Monastery
+		19910, -- Scholomance
+	},
+	[cat.RemixPandariaRaids] = {
+		19946, -- Raid Finder: Mogu'shan Vaults
+		19949, -- Raid Finder: Heart of Fear
+		19952, -- Raid Finder: Terrace of Endless Spring
+		19955, -- Raid Finder: Throne of Thunder
+		19958, -- Raid Finder: Siege of Orgrimmar
+		19947, -- Mogu'shan Vaults
+		19950, -- Heart of Fear
+		19953, -- Terrace of Endless Spring
+		19956, -- Throne of Thunder
+		19959, -- Siege of Orgrimmar
+		19948, -- Heroic: Mogu'shan Vaults
+		19951, -- Heroic: Heart of Fear
+		19954, -- Heroic: Terrace of Endless Spring
+		19957, -- Heroic: Throne of Thunder
+		19960, -- Heroic: Siege of Orgrimmar
+		20017, -- Salyis's Warband
+		20018, -- Sha of Anger
+		20019, -- Nalak, the Storm Lord
+		20020, -- Oondasta
+		20021, -- Chi-ji, the Red Crane
+		20022, -- Yu'lon, the Jade Serpent
+		20023, -- Niuzao, the Black Ox
+		20024, -- Xuen, the White Tiger
+		20025, -- Ordos
+	},
 
 	[cat.FeatsOfStrengthMountsArena] = { 886, 887, 888, 2316, 3096, 3756, 3757, 4600, 6003, 6322, 6741, 8216, 8678, 8705,
 		8707, 9229, 10137, 10146, 10999, 11000, 11001, 11002, 13450, 12139, 12140, 13093, 13202, 13632, 13958, 14816, 14999 },
@@ -601,6 +954,15 @@ local unsortedAchievements = {
 	-- 9.2 Sepulcher of the First Ones
 	[cat.RaidsShadowlandsSepulcherOfTheFirstOnes] = { 15315, 15381, 15386, 15396, 15397, 15398, 15399, 15400, 15401, 15416,
 		15418, 15419, 15492, 15493, 15494 },
+	-- 10.0 Vault of the Incarnates
+	[cat.RaidsDragonflightVaultOfTheIncarnates] = {
+	},
+	-- 10.1 Aberrus
+	[cat.RaidsDragonflightAberrus] = {
+	},
+	-- 10.2 Amirdrassil
+	[cat.RaidsDragonflightAmirdrassil] = {
+	},
 
 	[cat.ProfessionsCooking] = { 877, 1780, 1781, 1785, 1801, 5779, 7325, 12747, 10593, 10592, 10591 },
 	[cat.ProfessionsCookingDailyQuests] = { 906, "1782:1783" },

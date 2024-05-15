@@ -314,6 +314,10 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 				{ text = EXPANSION_NAME9, id = cat.RaidsDragonflight, subMenu = {
 					-- 10.0 Vault of the Incarnates
 					{ text = FormatRaid("10.0", 14030), id = cat.RaidsDragonflightVaultOfTheIncarnates },
+					-- 10.1 Aberrus
+					{ text = FormatRaid("10.1", 14663), id = cat.RaidsDragonflightAberrus },
+					-- 10.2 Amirdrassil
+					{ text = FormatRaid("10.2", 14643), id = cat.RaidsDragonflightAmirdrassil },
 				}},
 				{ text = format("%s%s", colors.cyan, "Raider's Glory"), id = cat.DungeonGloryRaider },
 				-- by exp
@@ -408,6 +412,7 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 					{ text = L["Raids"], id = cat.CollectionsAppearancesRaids },
 					{ text = PVP, id = cat.CollectionsAppearancesPvP },
 				}},
+				{ id = cat.CollectionsDrakeCosmetics },
 			}},
 			{ id = cat.ExpansionFeatures, subMenu = {
 				{ id = cat.ExpansionFeaturesArgentTournament },
@@ -436,8 +441,28 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 					{ text = C_Covenants.GetCovenantData(4).name, id = cat.ExpansionFeaturesCovenantSanctumsNecrolords },
 					{ text = COVENANT_MISSIONS_TITLE, id = cat.ExpansionFeaturesCovenantSanctumsAdventures },
 				}},
-				{ text = GetCategoryInfo(cat.ExpansionFeaturesDragonriderRacing), id = cat.ExpansionFeaturesDragonriderRacing },
+				{ text = GetCategoryInfo(cat.ExpansionFeaturesDragonriderRacing), id = cat.ExpansionFeaturesDragonriderRacing, subMenu = {
+					{ text = C_Map.GetAreaInfo(13644), id = cat.ExpansionFeaturesDragonriderRacingWakingShores },
+					{ text = C_Map.GetAreaInfo(13645), id = cat.ExpansionFeaturesDragonriderRacingOhnaranPlains },
+					{ text = C_Map.GetAreaInfo(13646), id = cat.ExpansionFeaturesDragonriderRacingAzureSpan },
+					{ text = C_Map.GetAreaInfo(13647), id = cat.ExpansionFeaturesDragonriderRacingThaldraszus },
+					{ text = C_Map.GetAreaInfo(14433), id = cat.ExpansionFeaturesDragonriderRacingForbiddenReach },
+					{ text = C_Map.GetAreaInfo(14022), id = cat.ExpansionFeaturesDragonriderRacingZaralekCavern },
+					{ text = C_Map.GetAreaInfo(14529), id = cat.ExpansionFeaturesDragonriderRacingEmeraldDream },
+					{ text = "Kalimdor", id = cat.ExpansionFeaturesDragonriderRacingKalimdorCup },
+					{ text = "Eastern Kingdoms", id = cat.ExpansionFeaturesDragonriderRacingEasternKingdomsCup },
+					{ text = "Outland", id = cat.ExpansionFeaturesDragonriderRacingOutlandCup },
+					{ text = "Northrend", id = cat.ExpansionFeaturesDragonriderRacingNorthrendCup },
+				}},
 				{ text = "Primal Storms", id = cat.ExpansionFeaturesPrimalStorms },
+			}},
+			{ id = cat.RemixPandaria, subMenu = {
+			        { id = cat.RemixPandariaQuests },
+			        { id = cat.RemixPandariaReputation },
+			        { id = cat.RemixPandariaExploration },
+			        { id = cat.RemixPandariaScenarios },
+			        { id = cat.RemixPandariaDungeons },
+			        { id = cat.RemixPandariaRaids },
 			}},
 			{ id = cat.FeatsOfStrength, subMenu = {
 				{ id = cat.FeatsOfStrengthMounts, subMenu = {
