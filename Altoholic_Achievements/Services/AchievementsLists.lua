@@ -406,6 +406,28 @@ local sortedAchievements = {
 		16395 },
 	[cat.CollectionsAppearancesPvP] = { 11706, 11707, 11708, 11709, 11710, 11711, 11712, 11713, 11714, 11715, 11716, 11717,
 		11718, 11719, 11720, 11629, 11721, 11722, 11630, 11723, 12021, 12993, 13433, 13585, 14059, 14831, 15102 },
+	[cat.CollectionsDrakeCosmetics] = {
+		16699, -- Renewed Proto-Drake Scales and Patterns
+		16696, -- Renewed Proto-Drake Armor
+		16700, -- Renewed Proto-Drake Horns and Hair
+		16697, -- Renewed Proto-Drake Head Features
+		16698, -- Renewed Proto-Drake Tail Features
+		16701, -- Windborne Velocidrake Scales and Patterns
+		16702, -- Windborne Velocidrake Armor
+		16704, -- Windborne Velocidrake Horns and Fur
+		16705, -- Windborne Velocidrake Head Features
+		16706, -- Windborne Velocidrake Back and Tail
+		16707, -- Highland Drake Scales and Patterns
+		16708, -- Highland Drake Armor
+		16710, -- Highland Drake Horns and Hair
+		16712, -- Highland Drake Head Features
+		16711, -- Highland Drake Back and Tail
+		16723, -- Cliffside Wylderdrake Scales and Patterns
+		16724, -- Cliffside Wylderdrake Armor
+		16725, -- Cliffside Wylderdrake Horns and Manes
+		16727, -- Cliffside Wylderdrake Head Features
+		16726, -- Cliffside Wylderdrake Back and Tail
+	},
 
 	[cat.ExpansionFeaturesArgentTournament] = { 2756, 2758, 2777, 2760, 2779, 2762, 2780, 2763, 2781, 2764, 2778, 2761, 2782,
 		2770, 2817, 2783, 2765, 2784, 2766, 2785, 2767, 2786, 2768, 2787, 2769, 2788, 2771, 2816 },
@@ -932,6 +954,15 @@ local unsortedAchievements = {
 	-- 9.2 Sepulcher of the First Ones
 	[cat.RaidsShadowlandsSepulcherOfTheFirstOnes] = { 15315, 15381, 15386, 15396, 15397, 15398, 15399, 15400, 15401, 15416,
 		15418, 15419, 15492, 15493, 15494 },
+	-- 10.0 Vault of the Incarnates
+	[cat.RaidsDragonflightVaultOfTheIncarnates] = {
+	},
+	-- 10.1 Aberrus
+	[cat.RaidsDragonflightAberrus] = {
+	},
+	-- 10.2 Amirdrassil
+	[cat.RaidsDragonflightAmirdrassil] = {
+	},
 
 	[cat.ProfessionsCooking] = { 877, 1780, 1781, 1785, 1801, 5779, 7325, 12747, 10593, 10592, 10591 },
 	[cat.ProfessionsCookingDailyQuests] = { 906, "1782:1783" },

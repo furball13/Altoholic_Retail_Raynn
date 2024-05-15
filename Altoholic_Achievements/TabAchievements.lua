@@ -412,6 +412,7 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 					{ text = L["Raids"], id = cat.CollectionsAppearancesRaids },
 					{ text = PVP, id = cat.CollectionsAppearancesPvP },
 				}},
+				{ id = cat.CollectionsDrakeCosmetics },
 			}},
 			{ id = cat.ExpansionFeatures, subMenu = {
 				{ id = cat.ExpansionFeaturesArgentTournament },
