@@ -466,6 +466,7 @@ local sortedAchievements = {
 	[cat.ExpansionFeaturesCovenantSanctumsNecrolords] = { 14684, 14753, 14751, 14748, 14833, 14752, 14764 },
 	[cat.ExpansionFeaturesCovenantSanctumsAdventures] = { 14840, 14841, 14842, 14839, 14846, 14847, 14844, 14843 },
 
+--[[
 	[cat.ExpansionFeaturesDragonriderRacing] = { 15939, 15940, 15941, 15855, 15936, 15924, 15917, 15857, 15926, 15698, 15927,
 		15718, 15923, 15895, 15726, 15920, 15696, 15899, 15732, 15938, 15925, 15719, 15922, 15841, 15856, 15704, 15697, 15738,
 		15929, 15935, 15921, 15846, 15724, 15711, 15835, 15787, 15932, 15919, 15858, 15915, 15720, 15715, 15730, 15852, 15849,
@@ -478,6 +479,123 @@ local sortedAchievements = {
 		15831, 15822, 15818, 15739, 15740, 15736, 15737, 15721, 15723, 15717, 15714, 15747, 15735, 15850, 15914, 15909, 15910,
 		15896, 15729, 15728, 15777, 15709, 15908, 15784, 15702, 15804, 15830, 15832, 15829, 15823, 15820, 15819, 15741, 15722,
 		15713, 15743 },
+]]--
+	[cat.ExpansionFeaturesDragonriderRacing] = {
+		19478, -- Now THIS is Dragon Racing!
+		15939, -- Dragon Racing Completionist: Bronze
+		15940, -- Dragon Racing Completionist: Silver
+		17330, -- Reverse Racer: Bronze
+		18790, -- Dragonriding Challenge: Dragon Isles: Bronze
+        },
+	[cat.ExpansionFeaturesDragonriderRacingWakingShores] = {
+		16575, -- Waking Shores Glyph Hunter
+		15917, -- Waking Shores: Gold
+		15928, -- Waking Shores Advanced: Silver
+		15929, -- Waking Shores Advanced: Gold
+		17195, -- Waking Shores Reverse: Bronze
+		18748, -- Waking Shores Challenge: Bronze
+	},
+	[cat.ExpansionFeaturesDragonriderRacingOhnaranPlains] = {
+		16576, -- Ohn'ahran Plains Glyph Hunter
+		15920, -- Ohn'ahran Plains: Gold
+		15931, -- Ohn'ahran Plains Advanced: Silver
+		15932, -- Ohn'ahran Plains Advanced: Gold
+		17198, -- Ohn'ahran Plains Reverse: Bronze
+		17199, -- Ohn'ahran Plains Reverse: Silver
+		18754, -- Ohn'ahran Plains Challenge: Bronze
+	},
+        [cat.ExpansionFeaturesDragonriderRacingAzureSpan] = {
+		16577, -- Azure Span Glyph Hunter
+		15923, -- Azure Span: Gold
+		15934, -- Azure Span Advanced: Silver
+		15935, -- Azure Span Advanced: Gold
+		17201, -- Azure Span Reverse: Bronze
+		18757, -- Azure Span Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingThaldraszus] = {
+		16578, -- Thaldraszus Glyph Hunter
+		15926, -- Thaldraszus: Gold
+		15936, -- Thaldraszus Advanced: Bronze
+		15937, -- Thaldraszus Advanced: Silver
+		17204, -- Thaldraszus Reverse: Bronze
+		18760, -- Thaldraszus Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingForbiddenReach] = {
+		17411, -- Forbidden Reach Glyph Hunter
+		17294, -- Forbidden Reach Racing Completionist
+		17296, -- Forbidden Reach Racing Completionist: Silver
+		17279, -- Forbidden Reach: Bronze
+		17280, -- Forbidden Reach: Silver
+		17284, -- Forbidden Reach Advanced: Bronze
+		17286, -- Forbidden Reach Advanced: Silver
+		17288, -- Forbidden Reach Reverse: Bronze
+		17289, -- Forbidden Reach Reverse: Silver
+		18779, -- Forbidden Reach Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingZaralekCavern] = {
+		18150, -- Zaralek Cavern Glyph Hunter
+		17492, -- Zaralek Cavern Racing Completionist
+		17493, -- Zaralek Cavern Racing Completionist: Silver
+		17485, -- Zaralek Cavern: Gold
+		17486, -- Zaralek Cavern Advanced: Bronze
+		17487, -- Zaralek Cavern Advanced: Silver
+		17489, -- Zaralek Cavern Reverse: Bronze
+		17490, -- Zaralek Cavern Reverse: Silver
+		18786, -- Zaralek Cavern Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingEmeraldDream] = {
+		19306, -- Emerald Dream Glyph Hunter
+		19118, -- Emerald Dream Racing Completionist
+		19119, -- Emerald Dream Racing Completionist: Silver
+		19127, -- Emerald Dream Challenge Racing Completionist
+		19109, -- Emerald Dream: Bronze
+		19110, -- Emerald Dream: Silver
+		19112, -- Emerald Dream Advanced: Bronze
+		19113, -- Emerald Dream Advanced: Silver
+		19115, -- Emerald Dream Reverse: Bronze
+		19116, -- Emerald Dream Reverse: Silver
+		19121, -- Emerald Dream Challenge: Bronze
+		19124, -- Emerald Dream Reverse Challenge: Bronze
+        },
+        [cat.ExpansionFeaturesDragonriderRacingKalimdorCup] = {
+		17721, -- Kalimdor Racing Completionist
+		17722, -- Kalimdor Racing Completionist: Silver
+		17713, -- Kalimdor: Silver
+		17714, -- Kalimdor: Gold
+		17715, -- Kalimdor Advanced: Bronze
+		17716, -- Kalimdor Advanced: Silver
+		17718, -- Kalimdor Reverse: Bronze
+		17719, -- Kalimdor Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingEasternKingdomsCup] = {
+		18939, -- Eastern Kingdoms Racing Completionist
+		18940, -- Eastern Kingdoms Racing Completionist: Silver
+		18568, -- Eastern Kingdoms: Gold
+		18569, -- Eastern Kingdoms Advanced: Bronze
+		18570, -- Eastern Kingdoms Advanced: Silver
+		18572, -- Eastern Kingdoms Reverse: Bronze
+		18573, -- Eastern Kingdoms Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingOutlandCup] = {
+		19105, -- Outland Racing Completionist
+		19106, -- Outland Racing Completionist: Silver
+		19092, -- Outland: Bronze
+		19097, -- Outland: Silver
+		19099, -- Outland Advanced: Bronze
+		19100, -- Outland Advanced: Silver
+		19102, -- Outland Reverse: Bronze
+		19103, -- Outland Reverse: Silver
+        },
+        [cat.ExpansionFeaturesDragonriderRacingNorthrendCup] = {
+		19721, -- Northrend Racing Completionist
+		19722, -- Northrend Racing Completionist: Silver
+		19674, -- Northrend: Bronze
+		19675, -- Northrend: Silver
+		19677, -- Northrend Advanced: Bronze
+		19679, -- Northrend Advanced: Silver
+		19682, -- Northrend Reverse: Bronze
+		19683, -- Northrend Reverse: Silver
+	},
 	[cat.ExpansionFeaturesPrimalStorms] = { 16480, 16484, 16498, 16477, 16483, 16467, 16461, 16487, 16482, 16478, 16481,
 		16465, 16479, 16476, 16500, 16475, 16492, 16486, 16463, 16488, 16489, 16466, 16485, 16468, 16499, 16490 },
 
