@@ -622,141 +622,6 @@ local sortedAchievements = {
 	[cat.ExpansionFeaturesPrimalStorms] = { 16480, 16484, 16498, 16477, 16483, 16467, 16461, 16487, 16482, 16478, 16481,
 		16465, 16479, 16476, 16500, 16475, 16492, 16486, 16463, 16488, 16489, 16466, 16485, 16468, 16499, 16490 },
 
-	[cat.RemixPandaria] = {
-		19871, -- Infinite Power
-		20593, -- Time Trial
-		40223, -- Timerunner
-		19872, -- The Jade Forest
-		19873, -- Valley of the Four Winds
-		19874, -- Krasarang Wilds
-		19875, -- Kun-Lai Summit
-		19877, -- Townlong Steppes
-		19878, -- Dread Wastes
-		19876, -- Vale of Eternal Blossoms
-		19879, -- Landfall
-		19880, -- Isle of Thunder
-		20003, -- Timeless Isle
-		19881, -- Escalation
-		20004, -- Heroic: Pandaria Scenarios
-		20005, -- Heroic: Pandaria Dungeons
-		20006, -- Pandaria Raids
-		20007, -- Heroic: Pandaria Raids
-		20008, -- Looking For Group: The Jade Forest
-		20009, -- Looking For Group: Valley of the Four Winds
-		20011, -- Looking For Group: Kun-Lai Summit
-		20012, -- Looking For Group: Townlong Steppes
-		20014, -- Looking For Group: Vale of Eternal Blossoms
-		20015, -- Looking For Group: Isle of Thunder
-		20016, -- Looking For Group: Timeless Isle
-	},
-	[cat.RemixPandariaQuests] = {
-		19882, -- Campaign: The Jade Forest
-		19884, -- Campaign: Valley of the Four Winds
-		19885, -- Campaign: Krasarang Wilds
-		19887, -- Campaign: Kun-Lai Summit
-		19889, -- Campaign: Townlong Steppes
-		19890, -- Campaign: Dread Wastes
-		19891, -- Campaign: Landfall
-		19892, -- Campaign: Isle of Thunder
-	},
-	[cat.RemixPandariaReputation] = {
-		19912, -- Order of the Cloud Serpent
-		19913, -- The August Celestials
-		19914, -- Shado-Pan
-		19915, -- The Klaxxi
-		19916, -- Golden Lotus
-		19917, -- Operation: Shieldwall
-		19919, -- Kirin Tor Offensive
-		19921, -- Shado-Pan Assault
-		19922, -- Emperor Shaohao
-	},
-	[cat.RemixPandariaExploration] = {
-		19962, -- Tour The Jade Forest
-		19963, -- Tour Valley of the Four Winds
-		19964, -- Tour Krasarang Wilds
-		19965, -- Tour Kun-Lai Summit
-		19966, -- Tour Townlong Steppes
-		19967, -- Tour Dread Wastes
-		19970, -- Tour Timeless Isle
-		20026, -- Explore Jade Forest
-		20027, -- Explore Valley of the Four Winds
-		20028, -- Explore Krasarang Wilds
-		20029, -- Explore Kun-Lai Summit
-		20030, -- Explore Townlong Steppes
-		20031, -- Explore Dread Wastes
-		19977, -- Hidden Treasures: The Jade Forest
-		19978, -- Hidden Treasures: Valley of the Four Winds
-		19979, -- Hidden Treasures: Krasarang Wilds
-		19980, -- Hidden Treasures: Kun-Lai Summit
-		19981, -- Hidden Treasures: Townlong Steppes
-		19982, -- Hidden Treasures: Timeless Isle
-		19993, -- Elusive Foes: The Jade Forest
-		19994, -- Elusive Foes: Valley of the Four Winds
-		19995, -- Elusive Foes: Krasarang Wilds
-		19996, -- Elusive Foes: Kun-Lai Summit
-		19997, -- Elusive Foes: Townlong Steppes
-		19998, -- Elusive Foes: Dread Wastes
-		20069, -- Elusive Foes: Vale of Eternal Blossoms
-		19999, -- Elusive Foes: Landfall
-		20000, -- Elusive Foes: Isle of Thunder
-		20001, -- Elusive Foes: Timeless Isle
-		20002, -- Powerful Enemies: Timeless Isle
-	},
-	[cat.RemixPandariaScenarios] = {
-		19923, -- Greenstone Village
-		19893, -- A Brewing Storm
-		19925, -- Unga Ingoo
-		19926, -- Brewmoon Festival
-		19927, -- Arena of Annihilation
-		19928, -- Crypt of Forgotten Kings
-		19930, -- Assault on Zan'vess
-		19933, -- Dagger in the Dark
-		19931, -- A Little Patience
-		20500, -- Lion's Landing
-		19938, -- Theramore's Fall
-		19934, -- Battle on the High Seas
-		19940, -- Blood in the Snow
-		19942, -- Dark Heart of Pandaria
-		19944, -- Secrets of Ragefire
-	},
-	[cat.RemixPandariaDungeons] = {
-		19894, -- Temple of the Jade Serpent
-		19896, -- Stormstout Brewery
-		19898, -- Shado-Pan Monastery
-		19900, -- Siege of Niuzao Temple
-		19902, -- Gate of the Setting Sun
-		19904, -- Mogu'shan Palace
-		19906, -- Scarlet Halls
-		19908, -- Scarlet Monastery
-		19910, -- Scholomance
-	},
-	[cat.RemixPandariaRaids] = {
-		19946, -- Raid Finder: Mogu'shan Vaults
-		19949, -- Raid Finder: Heart of Fear
-		19952, -- Raid Finder: Terrace of Endless Spring
-		19955, -- Raid Finder: Throne of Thunder
-		19958, -- Raid Finder: Siege of Orgrimmar
-		19947, -- Mogu'shan Vaults
-		19950, -- Heart of Fear
-		19953, -- Terrace of Endless Spring
-		19956, -- Throne of Thunder
-		19959, -- Siege of Orgrimmar
-		19948, -- Heroic: Mogu'shan Vaults
-		19951, -- Heroic: Heart of Fear
-		19954, -- Heroic: Terrace of Endless Spring
-		19957, -- Heroic: Throne of Thunder
-		19960, -- Heroic: Siege of Orgrimmar
-		20017, -- Salyis's Warband
-		20018, -- Sha of Anger
-		20019, -- Nalak, the Storm Lord
-		20020, -- Oondasta
-		20021, -- Chi-ji, the Red Crane
-		20022, -- Yu'lon, the Jade Serpent
-		20023, -- Niuzao, the Black Ox
-		20024, -- Xuen, the White Tiger
-		20025, -- Ordos
-	},
-
 	[cat.FeatsOfStrengthMountsArena] = { 886, 887, 888, 2316, 3096, 3756, 3757, 4600, 6003, 6322, 6741, 8216, 8678, 8705,
 		8707, 9229, 10137, 10146, 10999, 11000, 11001, 11002, 13450, 12139, 12140, 13093, 13202, 13632, 13958, 14816, 14999 },
 	[cat.FeatsOfStrengthMountsRaF] = { 1436, 4832, 8213, 8794, 9925 },
@@ -800,6 +665,41 @@ local sortedAchievements = {
 		2085, 2086, 2087, 2088, 2089 },
 	[cat.LegacyWorldEvents] = { "11558:11559", "13189:13190", "13191:13192", "13186:13188" },
 	[cat.LegacyExpansionFeatures] = { },
+
+	[cat.PandariaRemix] = { 20593, 40223, 19871, 20527, 20528, 20529, 20530, 20531, 20532, 20533, 20534, 20535, 20536, 20537, 20538,
+		19872, 19873, 19874, 19875, 19876, 19877, 19878, 19879, 19880, 19881, 20003, 	-- Zones
+		20004, 20005, 20006, 20007, 								-- Scenarios, Dungeons, Raids
+		20008, 20009, 20011, 20012, 20014, 20015, 20016,	-- Looking for Group
+	},
+	[cat.PandariaRemixQuests] = { "19882:19883", 19884, "19885:19886", "19887:19888", 19889, 19890, 19891, 19892 },
+	[cat.PandariaRemixReputation] = { 19912, 19913, 19914, 19915, 19916, 19917, 19918, 19919, 19920, 19921, 19922 },
+	[cat.PandariaRemixExploration] = { 
+		20026, 19993, 19977, 19962,	-- Jade Forest
+		20027, 19994, 19978, 19963,	-- Valley of the four winds
+		20028, 19995, 19979, 19964,	-- Krasarang Wilds
+		20029, 19996, 19980, 19965,	-- Kun-Lai Summit
+		20030, 19997, 19981, 19966,	-- Townlong Steppes
+		20031, 19998, 19967,				-- Dread Wastes
+		20069,								-- Valley of Eternal Blossoms
+		19999,								-- Landfall
+		20000,								-- Isle of Thunder
+		20001, 19982, 20002, 19970		-- Timeless Isle
+	},
+	[cat.PandariaRemixScenarios] = { 19893, 19924, 19931, 19927, 19930, "19934:19936", "19935:19937", 19940, 19941, 19926, 19928, 19928, 19933, 19942, 19943, 19932, 19923, 20500, 19944, 19945, "19938:19939", 19925 },
+	[cat.PandariaRemixDungeons] = { 19894, 19895, 19896, 19897, 19898, 19899, 19904, 19905, 19902, 19903, 19906, 19907, 19908, 19909, 19910, 19911, 19900, 19901 },
+	[cat.PandariaRemixRaids] = {
+		19946, 19947, 19948,		-- Mogu'Shan Vaults
+		19949, 19950, 19951,		-- Heart of Fear
+		19952, 19953, 19954,		-- Terrace of Endless Spring
+		19955, 19956, 19957,		-- Throne of Thunder
+		19958, 19959, 19960,		-- Siege of Orgrimmar
+		20017,						-- Salyis
+		20018,						-- Sha of Anger
+		20019,						-- Nalak
+		20020,						-- Oondasta	
+		20021, 20022, 20023, 20024, 20025	-- Timeless Isle 
+	},
+
 	-- [cat.] = {},
 	-- [cat.] = {},
 
