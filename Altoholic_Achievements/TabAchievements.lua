@@ -456,13 +456,13 @@ addon:Controller("AltoholicUI.TabAchievementsCategoriesList", {
 				}},
 				{ text = "Primal Storms", id = cat.ExpansionFeaturesPrimalStorms },
 			}},
-			{ id = cat.RemixPandaria, subMenu = {
-			        { id = cat.RemixPandariaQuests },
-			        { id = cat.RemixPandariaReputation },
-			        { id = cat.RemixPandariaExploration },
-			        { id = cat.RemixPandariaScenarios },
-			        { id = cat.RemixPandariaDungeons },
-			        { id = cat.RemixPandariaRaids },
+			{ id = cat.PandariaRemix, subMenu = {
+				{ id = cat.PandariaRemixQuests },
+				{ id = cat.PandariaRemixReputation },
+				{ id = cat.PandariaRemixExploration },
+				{ id = cat.PandariaRemixScenarios },
+				{ id = cat.PandariaRemixDungeons },
+				{ id = cat.PandariaRemixRaids },
 			}},
 			{ id = cat.FeatsOfStrength, subMenu = {
 				{ id = cat.FeatsOfStrengthMounts, subMenu = {
