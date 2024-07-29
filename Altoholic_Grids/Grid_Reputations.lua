@@ -312,6 +312,8 @@ local Factions = {
 			{ name = DataStore:GetFactionName(2526), icon = "ui_majorfaction_valdrakken" },      		-- Winterpelt Furbolg
 			{ name = DataStore:GetFactionName(2568), icon = "inv_snailrockmount_pink" }, 			-- Glimmerogg Racer Unknown icon
 			{ name = DataStore:GetFactionName(2553), icon = "ability_essence_reapingflames" },      	-- Soridormi
+			{ name = DataStore:GetFactionName(2523), icon = "inv_dracthyrhead03" }, 			-- Dark Talons Dracthyrs
+			{ name = DataStore:GetFactionName(2524), icon = "inv_dracthyrhead03" }, 			-- Obsidian Warders Dracthyrs
 		},
 	},
 	{	-- [11]
